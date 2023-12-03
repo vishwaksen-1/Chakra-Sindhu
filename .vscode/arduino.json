@@ -1,4 +1,5 @@
 {
     "board": "arduino:avr:uno",
-    "sketch": "legacy_codes\\ire_codes.ino"
+    "sketch": "legacy_codes\\ire_codes.ino",
+    "programmer": "arduinoisp"
 }
