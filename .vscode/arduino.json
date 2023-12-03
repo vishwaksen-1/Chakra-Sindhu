@@ -1,0 +1,4 @@
+{
+    "board": "arduino:avr:uno",
+    "sketch": "legacy_codes\\ire_codes.ino"
+}
