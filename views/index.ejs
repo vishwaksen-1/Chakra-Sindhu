@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Single Wind Turbine Portal</title>
+</head>
+<body>
+  <header>
+    <h1>Horizontal Axis Wind Turbine</h1>
+  </header>
+  <section id="windTurbineDetails">
+    <div class="turbine-card">
+      <h2><%= turbine.name %></h2>
+      <p>Wind Direction: <%= turbine.direction %></p>
+      <p>Wind Speed: <%= turbine.speed %></p>
+      <p>Yaw Error: <%= turbine.yawError %></p>
+      <p>RPM: <%= turbine.rpm %></p>
+      <p>Running Status: <%= turbine.runningStatus %></p>
+    </div>
+  </section>
+</body>
+</html>
